@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Telemedicine App</string>
+    <string name="item_1">Home</string>
+    <string name="item_2">Notification</string>
+    <string name="item_3">New</string>
+    <string name="item_4">Shedule</string>
+    <string name="item_5">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
