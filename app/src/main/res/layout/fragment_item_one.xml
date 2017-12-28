@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   >
+    >
 
 
     <TextView
@@ -74,75 +74,81 @@
         app:layout_constraintVertical_bias="0.162" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/editdescription"
         android:layout_width="222dp"
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Describe here"
+        android:text=""
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/editText9"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="103dp"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/editlocation"
         android:layout_width="222dp"
         android:layout_height="54dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Where is your location"
+        android:text=""
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/editText6"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="166dp"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintVertical_bias="0.939"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/editdesease"
         android:layout_width="223dp"
         android:layout_height="54dp"
         android:layout_marginRight="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="What is your illness"
+        android:text=""
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="256dp"
-        app:layout_constraintHorizontal_bias="0.786" />
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/editname"
         android:layout_width="226dp"
         android:layout_height="63dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Your name"
+        android:text=""
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="309dp"
-        app:layout_constraintHorizontal_bias="0.774" />
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.885" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/requestbutton"
         android:layout_width="140dp"
         android:layout_height="48dp"
         android:text="Request"
@@ -155,7 +161,7 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="3dp"
         app:layout_constraintVertical_bias="0.583" />
 
     <TextView
