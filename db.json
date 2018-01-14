@@ -1,0 +1,32 @@
+{
+  "posts":[
+    {
+      "id":1,
+      "name": "Mitriuc",
+      "desease": "illness",
+      "location": "Chisinau",
+      "description": "temperature"
+    },
+    {
+      "id":2,
+      "name": "Mitriuc1",
+      "desease": "illness1",
+      "location": "Chisinau1",
+      "description": "temperature1"
+    },
+    {
+      "id":3,
+      "name": "Mitriuc2",
+      "desease": "illness2",
+      "location": "Chisinau2",
+      "description": "temperature2"
+    },
+    {
+      "id":4,
+      "name": "Mitriuc3",
+      "desease": "illness3",
+      "location": "Chisinau3",
+      "description": "temperature3"
+    }
+  ]
+}

@@ -24,6 +24,7 @@
         </activity>
         <activity android:name="com.maria.medapp.Main2Activity" />
         <activity android:name="com.maria.medapp.Main3Activity" />
+        <activity android:name="com.maria.medapp.WelcomeActivity" />
 
     </application>
 

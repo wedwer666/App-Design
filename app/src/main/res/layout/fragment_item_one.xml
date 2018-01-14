@@ -14,8 +14,6 @@
         android:layout_height="32dp"
         android:text="Name"
         android:textColor="#000000"
-        app:layout_constraintRight_toLeftOf="@+id/editText5"
-        android:layout_marginRight="8dp"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         android:layout_marginLeft="8dp"
@@ -23,7 +21,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.16"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.282"
+        android:layout_marginStart="8dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -40,7 +39,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.025"
-        app:layout_constraintVertical_bias="0.11" />
+        app:layout_constraintVertical_bias="0.11"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -52,9 +53,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/editText9"
-        android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.153" />
+        app:layout_constraintHorizontal_bias="0.153"
+        android:layout_marginStart="8dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -62,8 +62,6 @@
         android:layout_height="wrap_content"
         android:text="Description"
         android:textColor="#000000"
-        app:layout_constraintRight_toLeftOf="@+id/editText8"
-        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         android:layout_marginLeft="8dp"
@@ -71,7 +69,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.228"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintVertical_bias="0.162"
+        android:layout_marginStart="8dp" />
 
     <EditText
         android:id="@+id/editdescription"
@@ -89,7 +88,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintVertical_bias="1.0"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <EditText
         android:id="@+id/editlocation"
@@ -107,7 +108,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.828"
         app:layout_constraintVertical_bias="0.939"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <EditText
         android:id="@+id/editdesease"
@@ -125,7 +128,9 @@
         app:layout_constraintHorizontal_bias="0.786"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
 
 
@@ -142,10 +147,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="309dp"
-        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintHorizontal_bias="0.802"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintVertical_bias="0.885" />
+        app:layout_constraintVertical_bias="0.885"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <Button
         android:id="@+id/requestbutton"
@@ -154,21 +161,21 @@
         android:text="Request"
         android:background="@drawable/roundshapegreeen"
         android:textColor="@color/white"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/editText8"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="3dp"
-        app:layout_constraintVertical_bias="0.583" />
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Very urgent"
+        android:layout_width="295dp"
+        android:layout_height="39dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/title_very_urgent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
@@ -177,9 +184,26 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintVertical_bias="0.107"
-        android:textSize="50px"
-        android:textColor="@color/green"/>
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintVertical_bias="0.07"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/tv_response_very_urgent"
+        android:layout_width="292dp"
+        android:visibility="gone"
+        android:layout_height="37dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.886"
+        tools:layout_editor_absoluteY="415dp" />
 
 </android.support.constraint.ConstraintLayout>

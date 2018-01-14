@@ -7,6 +7,13 @@
     <string name="item_5">Profile</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Fragment</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="hint_title">Email adress</string>
+    <string name="hint_body">Password</string>
+    <string name="action_submit">Login</string>
+    <string name="title_enter_post">Telemedicine</string>
+    <string name="mssg_error_submitting_post">Eroare la trimiterea mesajului</string>
+    <string name="title_very_urgent">Very urgent</string>
 </resources>
